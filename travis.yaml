@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "6"
+  - "6.1"
+  - "5.1"
+  - "4.4"
+  - "iojs"
+
+before_script:
+  - npm install -g gulp
+script: gulp
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - gcc-4.8
+      - g++-4.8
