@@ -4,7 +4,8 @@
   "description": "A simple app to split bills",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test"
+    "test": "",
+    "start": ""
   },
   "repository": {
     "type": "git",
